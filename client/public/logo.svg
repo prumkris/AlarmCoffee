@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- White Background with More Rounded Corners -->
+  <rect width="512" height="512" rx="128" fill="white" />
+  
+  <!-- Content Group with Padding -->
+  <g transform="translate(25.6, 25.6) scale(0.9)">
+    <!-- Main Clock Ring -->
+    <path d="M256 40C136.706 40 40 136.706 40 256C40 375.294 136.706 472 256 472C375.294 472 472 375.294 472 256" stroke="#4A4A4A" stroke-width="40" stroke-linecap="round"/>
+    
+    <!-- Left Side Ticks (Red) -->
+    <line x1="120" y1="256" x2="160" y2="256" stroke="#EF4444" stroke-width="20" stroke-linecap="round"/>
+    <line x1="140" y1="140" x2="168" y2="168" stroke="#EF4444" stroke-width="20" stroke-linecap="round"/>
+    <line x1="140" y1="372" x2="168" y2="344" stroke="#EF4444" stroke-width="20" stroke-linecap="round"/>
+    
+    <!-- Right Side Segmented Shape (Dripper/Umbrella) -->
+    <path d="M256 90L256 256L440 256C440 163.817 357.701 90 256 90Z" fill="#333333"/>
+    <path d="M256 256L440 256L400 400C360 330 300 280 256 256Z" fill="#EF4444"/>
+    <path d="M256 256L400 400C360 440 310 422 256 422L256 256Z" fill="#1A1A1A"/>
+    
+    <!-- Center Pivot -->
+    <circle cx="256" cy="256" r="15" fill="#333333"/>
+    
+    <!-- Alarm Arrow (Top Left) -->
+    <path d="M190 60L256 40L210 110" fill="#4A4A4A"/>
+  </g>
+</svg>
